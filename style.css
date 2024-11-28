@@ -1,0 +1,112 @@
+/* --- Importar fuente --- */
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+/* --- Estilos generales --- */
+* {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+}
+
+/* --- Estilos para la página de login --- */
+.logincontainer{
+    display: flex;
+}
+
+.logincontainer .loginformcontainer{
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logincontainer .loginformcontainer .logintitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17.5%;
+}
+
+.logincontainer .loginformcontainer .logintitle img{
+    width: 20%;
+}
+
+.logincontainer .loginformcontainer .logintitle p{
+    font-size: 40px;
+    margin-left: 2.5%;
+}
+
+.logincontainer .loginformcontainer .loginsubtitle{
+    margin-top: 7.5%;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+.logincontainer .loginformcontainer .loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 5%;
+}
+
+.logincontainer .loginformcontainer .loginform label{
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    align-self: start;
+}
+
+.logincontainer .loginformcontainer .loginform .logintext{
+    margin-bottom: 1.25%;
+    margin-top: 1.25%;
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(223, 221, 221);
+    transition: transform 0.3s;
+}
+
+.logincontainer .loginformcontainer .loginform .logintext:hover{
+    transform: scale(1.05);
+}
+
+.logincontainer .loginformcontainer .loginform .loginsubmit{
+    margin-top: 5%;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 107, 229);
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.logincontainer .loginformcontainer .loginform .loginsubmit:hover{
+    transform: scale(1.05);
+    background-color: rgb(222, 78, 210);
+}
+
+.logincontainer .loginformcontainer .loginfooter{
+    margin-top: 20%;
+    font-size: 15px;
+    width: 60%;
+    text-align: center;
+}
+
+.loginimgcontainer{
+    width: 65vw;
+    height: 100vh;
+}
+
+.loginimgcontainer img{
+    width: 100%;
+    height: 100%;
+}
+
+/* --- Estilos para el Home --- */
